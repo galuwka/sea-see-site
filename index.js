@@ -1,7 +1,7 @@
 /*global $*/
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 TriggerClick = 0;
 
 $("#img1").click(function(){
@@ -39,4 +39,22 @@ $("#img3").click(function(){
      $("#img3").animate({width:'80%'}, 3000);
  };
  });
+});*/
+// Stop carousel
+
+$('.carousel').carousel({
+  interval: false
 });
+/*$(function() {
+
+    $('.smooth').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 2000);
+        }
+    });
+
+});*/

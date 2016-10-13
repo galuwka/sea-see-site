@@ -1,0 +1,26 @@
+#carousel-example-generic {
+    width: 600px;
+    margin: 0 auto;
+}
+.item {
+    transition: display 1500ms linear 0s;
+    /*overflow:hidden;*/
+
+}
+
+.item.active img {
+    transition: transform 5000ms linear 0s;
+    /* This should be based on your carousel setting. For bs, it should be 5second*/
+    transform: scale(1.2, 1.2);
+
+}
+.c-wrapper{
+    width: 100%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
