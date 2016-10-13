@@ -23,4 +23,5 @@
 .carousel-inner > .item > a > img{
 width: 100%; /* use this, or not */
 margin: auto;
+opacity: 0.83;
 }
