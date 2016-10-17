@@ -45,16 +45,16 @@ $("#img3").click(function(){
 $('.carousel').carousel({
   interval: false
 });
-/*$(function() {
+$('a[href^="#"]').bind('click.smoothscroll', function(e) {
+    e.preventDefault();
 
-    $('.smooth').on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 2000);
-        }
+    var target = this.hash,
+        $target = $(target);
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 2000, 'swing', function() {
+        window.location.hash = target;
     });
+});
 
-});*/

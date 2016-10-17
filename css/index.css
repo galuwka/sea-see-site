@@ -62,6 +62,9 @@ nav li {
 a {
      text-decoration:none;
 }
+a:hover { 
+    color: #079C98;
+}
  figure {
     display: block; 
     float: left; 
