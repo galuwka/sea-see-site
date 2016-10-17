@@ -27,9 +27,6 @@ $(function() {
     });
 });
 });
-        });
-    })
-});
 /*function empty() {
     var x;
     x = document.getElementById("firstname").value;
