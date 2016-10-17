@@ -65,27 +65,33 @@
                  </a>
             </div>
             </section>
-            <section id="contact">
-                <h2>Contact Us</h2>
-                 <form id="usrform">
-                <ul class="form-style-1">
-                    <li><label>Name:</label>
-                        <input type="text" id="name" class="field-long" placeholder="name" required>
+            <section class="contactform">
+            <h3>Contact Us!</h3><br>
+            <form>
+                <ul>
+                    <li>
+                        <label for="firstname" class="required">First Name:</label><br>
+                        <input type="text" name="firstname" id="firstname" class="field-long" required><br>
                     </li>
                     <li>
-                        <label>Email:</label>
-                        <input type="email" id="email" class="field-long" placeholder="example@domain.com" required>
+                        <label for="secondname" class="required">Second Name:</label><br>
+                        <input type="text" name="secondname" id="secondname" class="field-long" required><br>
                     </li>
                     <li>
-                        <label>Your Message:</label>
-                        <textarea name="message" id="msg" class="field-long field-textarea" required></textarea>
+                        <label for="email" class="required">Email Address:</label><br>
+                        <input type="email" name="email" id="email" class="field-long" required><br>
                     </li>
                     <li>
-                        <button id="send">Send</button>
+                        <label for="message" class="required">Your Message:</label><br>
+                        <textarea name="message" id="message" placeholder="Send message" class="field-long field-textarea" required></textarea><br>
                     </li>
+                    <li>
+                        <input type="submit" name="submit" value="Send" class="formbutton" id="send">
+                    </li>
+                    <li id="textbelowform">Fields marked with an asterisk <br> (<span class="required"></span>) are required to fill in!</li>
                 </ul>
-        </form>
-            </section>
+            </form>
+        </section>
              <footer>
                  <br>
                 <p>Created by 

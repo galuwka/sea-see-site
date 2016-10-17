@@ -1,20 +1,21 @@
 /*global $*/
-$(function () {
+$(function() {
     $('#send').click(function(e) {
         e.preventDefault();
         $.ajax({
-            url: "https://formspree.io/galinasale@gmail.com", 
+            url: "https://formspree.io/galinasale@gmail.com",
             method: "POST",
             data: {
-                userName: $('#name').val(),
+                firstname: $('#firstname').val(),
+                secondname: $('#secondname').val(),
                 email: $('#email').val(),
-                text: $('#msg').val() 
+                message: $('#message').val()
             },
             dataType: "json"
         }).done(function() {
-            $('#usrform').html('<h1>Thank you!</h1>')
+            $('form').html('<h4><center>Thank you for reaching out! </br> Your message has been successfully sent.</center></h4>')
         }).fail(function(xhr, err) {
-            $('#usrform').html(xhr.statusText);
-        });        
+            $('form').html(xhr.statusText);
+        });
     })
 });
