@@ -6,8 +6,7 @@ $(function() {
             url: "https://formspree.io/galinasale@gmail.com",
             method: "POST",
             data: {
-                firstname: $('#firstname').val(),
-                secondname: $('#secondname').val(),
+                userName: $('#firstname').val(),
                 email: $('#email').val(),
                 message: $('#message').val()
             },
