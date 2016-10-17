@@ -73,8 +73,22 @@ a:hover {
 figure img {
     width: 30%;
 }
+a {
+    color: black;
+}
 
+.social {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 
+hr {
+    color: #079C98;
+    background-color: #079C98;
+    height: 5px;
+}
 
 
 
