@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1300px;
 }
 html, body {
    /* width: 100%;*/
@@ -37,7 +37,7 @@ h1 {
   float: left;
   clear: both;
   top: 30%;
-  left: 5%;
+  /*left: 5%;*/
   /*transform: translateY(-50%);*/
   
 }
