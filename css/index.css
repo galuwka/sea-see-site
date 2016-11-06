@@ -104,6 +104,23 @@ footer p {
     font-size: 2em;
 }
 
+.navbar, .navbar-default, .container, .navbar-header, .nav, .navbar-nav{
+      text-align: center;
+      padding-left: 8%;
+      padding-top: 5px;
+      margin-top: -19px;
+      background-color:transparent;
+      border-color: transparent;
+      
+}
+.collapse, .navbar-collapse{
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+p{
+    padding: 20px;
+}
 
 
 
