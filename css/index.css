@@ -1,8 +1,10 @@
 * {
     margin: 0 auto;
+
     max-width: 1300px;
 }
 html, body {
+  
    /* width: 100%;*/
     /*max-width: 1400px;*/
     /*min-width: 600px;*/
@@ -15,6 +17,7 @@ html, body {
 #top{
     /*min-width: 800px;*/
     position: relative;
+    margin-right: 0;
     margin-top: 0;
     width: 100%;
     height: 600px;
@@ -104,20 +107,19 @@ footer p {
     font-size: 2em;
 }
 
-.navbar, .navbar-default, .container, .navbar-header, .nav, .navbar-nav{
+.navbar, .container{
       text-align: center;
-      padding-left: 8%;
-      padding-top: 5px;
-      margin-top: -19px;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 0;
       background-color:transparent;
       border-color: transparent;
-      
+      border:0;
+      -webkit-box-align:center;
+      -webkit-box-pack:center;
+      display:-webkit-box;
 }
-.collapse, .navbar-collapse{
-    padding:0;
-    margin: 0;
-    text-align: center;
-}
+
 p{
     padding: 20px;
 }
